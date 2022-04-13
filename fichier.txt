@@ -1,0 +1,37 @@
+
+Camel case: helloWorld (sans espace,sans accent...)
+Snake case: hello_world(avec espace)
+Git:
+   -git config --global user.name "Laza"
+   -git config --global user.email "lazadevop@gmail.com"
+   -git config --list (pour faire apparaitre le name et l'email )
+
+ Pour initialiser (debut sans rien à l'interieur du dossier)
+          git init 
+           dev@UTILISA-KD5UIIF MINGW64 ~/Desktop/gitTest (master)
+           branche master: c'est la base , c'est le projet principal
+
+ Presentation du systeme de sauvegarde git
+      -Working directory-stage-commits
+   -git commit -m "message"    
+
+   -git log   afficher l'auteur
+ 
+   -git add (sert à ajouter ou supp une modif "dans notre cas c'etait l'image.png),
+             dans le dossier gitTest (drag and drop)
+
+
+
+   -git restore --stage <file>
+
+
+  - git commit -am "message"
+  
+  - git add * (ajout de plusieur fichier en mm temps)
+  - git add -m "message" ajouter tout dans commit
+  - git add -am "
+FAIRE UN LIEN ENTRE LOCAL ET DEPOT
+   donc creation de nouveau dossier dossier
+  - git init
+  - git remote add origin + adresse http sur github(faire un lien entre local et depot)
+  - git pull + adresse https sur github ( du depot vers le local)
