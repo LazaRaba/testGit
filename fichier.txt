@@ -35,3 +35,4 @@ FAIRE UN LIEN ENTRE LOCAL ET DEPOT
   - git init
   - git remote add origin + adresse http sur github(faire un lien entre local et depot)
   - git pull + adresse https sur github ( du depot vers le local)
+     - touc fichier.txt (commande pour ajouter fichier.txt directement dans GIT); faire git add pour valider
