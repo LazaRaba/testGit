@@ -36,3 +36,4 @@ FAIRE UN LIEN ENTRE LOCAL ET DEPOT
   - git remote add origin + adresse http sur github(faire un lien entre local et depot)
   - git pull + adresse https sur github ( du depot vers le local)
      -touch fichier.txt (ajouter directement fichier.txt directement dans Git)
+  -git push (du commit vers depot)   
