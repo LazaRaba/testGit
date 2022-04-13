@@ -6,7 +6,7 @@ Git:
    -git config --global user.email "lazadevop@gmail.com"
    -git config --list (pour faire apparaitre le name et l'email )
 
- Pour initialiser (debut sans rien à l'interieur du dossier)
+ Pour initialiser (debut sans rien Ã  l'interieur du dossier)
           git init 
            dev@UTILISA-KD5UIIF MINGW64 ~/Desktop/gitTest (master)
            branche master: c'est la base , c'est le projet principal
@@ -17,7 +17,7 @@ Git:
 
    -git log   afficher l'auteur
  
-   -git add (sert à ajouter ou supp une modif "dans notre cas c'etait l'image.png),
+   -git add (sert Ã  ajouter ou supp une modif "dans notre cas c'etait l'image.png),
              dans le dossier gitTest (drag and drop)
 
 
@@ -35,3 +35,4 @@ FAIRE UN LIEN ENTRE LOCAL ET DEPOT
   - git init
   - git remote add origin + adresse http sur github(faire un lien entre local et depot)
   - git pull + adresse https sur github ( du depot vers le local)
+     -touch fichier.txt (ajouter directement fichier.txt directement dans Git)
