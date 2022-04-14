@@ -60,3 +60,4 @@ git pull avant de git push (toujours)
 
    - git stash show (faire apparaitre ce qui a dans le stash)
    - git stash apply (remettre ou revenir sur le travail)
+   -git stash drop (supp le stash si y en a plusieurs on precise avec le nom stash@{0} 0= le premier
