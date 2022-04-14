@@ -1,4 +1,4 @@
-
+ï»¿
 Camel case: helloWorld (sans espace,sans accent...)
 Snake case: hello_world(avec espace)
 Git:
@@ -6,7 +6,7 @@ Git:
    -git config --global user.email "lazadevop@gmail.com"
    -git config --list (pour faire apparaitre le name et l'email )
 
- Pour initialiser (debut sans rien à l'interieur du dossier)
+ Pour initialiser (debut sans rien Ã  l'interieur du dossier)
           git init 
            dev@UTILISA-KD5UIIF MINGW64 ~/Desktop/gitTest (master)
            branche master: c'est la base , c'est le projet principal
@@ -17,10 +17,10 @@ Git:
 
    -git log   afficher l'auteur
  
-   -git add (sert à ajouter ou supp une modif "dans notre cas c'etait l'image.png),
+   -git add (sert Ã  ajouter ou supp une modif "dans notre cas c'etait l'image.png),
              dans le dossier gitTest (drag and drop)
 
-
+   -git remote add origin (creer un lien entre git et github)
 
    -git restore --stage <file>
 
@@ -35,4 +35,14 @@ FAIRE UN LIEN ENTRE LOCAL ET DEPOT
   - git init
   - git remote add origin + adresse http sur github(faire un lien entre local et depot)
   - git pull + adresse https sur github ( du depot vers le local)
-     - touc fichier.txt (commande pour ajouter fichier.txt directement dans GIT); faire git add pour valider
+   -touch fichier.txt (commande pour ajouter un fichier directement dans GIT)
+MASTER ET BRANCHE 
+   - git switch master ou git switch (nom de la branch*)
+   - git checkout pour sortir du master ou de la branche
+   - git merge dev (fusionner master et branche)
+   - cd ..(change directory, on remonte de racine)
+   - ls (liste,pour voir ce qui a ds le dossier)
+   -rm + nom du fichier a supp  (remove) suppression definitive******faire attention
+   - rm -R + nom de dossier (supp dossier)
+
+git pull avant de git push (toujours)
