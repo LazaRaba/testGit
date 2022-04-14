@@ -25,7 +25,7 @@ Git:
    -git restore --stage <file>
 
 
-  - git commit -am "message"
+  - git commit -m "message"
   
   - git add * (ajout de plusieur fichier en mm temps)
   - git add -m "message" ajouter tout dans commit
@@ -62,3 +62,7 @@ git pull avant de git push (toujours)
    - git stash apply (remettre ou revenir sur le travail)
    - git stash drop (supp le stash si y en a plusieurs on precise avec le nom stash@{0} 0= le premier
    - git stash list (list de stash)
+
+   - git log --graph (afficher le git log en graph)
+
+
