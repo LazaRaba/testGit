@@ -35,6 +35,7 @@ FAIRE UN LIEN ENTRE LOCAL ET DEPOT
   - git init
   - git remote add origin + adresse http sur github(faire un lien entre local et depot)
   - git pull + adresse https sur github ( du depot vers le local)
+<<<<<<< HEAD:lazadevop.txt
    -touch fichier.txt (commande pour ajouter un fichier directement dans GIT)
 MASTER ET BRANCHE 
    - git switch master ou git switch (nom de la branch*)
@@ -46,3 +47,7 @@ MASTER ET BRANCHE
    - rm -R + nom de dossier (supp dossier)
 
 git pull avant de git push (toujours)
+=======
+     -touch fichier.txt (ajouter directement fichier.txt directement dans Git)
+  -git push (du commit vers depot)   
+>>>>>>> 687a20eab7dd903a9718b8db71f0b949a167d41d:fichier.txt
